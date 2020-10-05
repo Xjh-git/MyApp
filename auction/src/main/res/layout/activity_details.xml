@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/id_comm_name"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="名称"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/id_comm_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="    details"
+        android:textSize="18dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="图片："
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/id_comm_icon"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:src="@drawable/add_img" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/id_comm_currentPrice"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#b0e6db"
+            android:gravity="center"
+            android:text="竞拍价：555.0"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/id_comm_maxPrice"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#FFEA9A9A"
+            android:gravity="center"
+            android:text="一口价：1000"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+</LinearLayout>

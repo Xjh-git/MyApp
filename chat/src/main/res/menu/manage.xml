@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/delete"
+        android:title="删除"></item>
+    <item
+        android:id="@+id/up"
+        android:title="置顶"></item>
+    <item
+        android:id="@+id/isRead"
+        android:title="标为已读"></item>
+</menu>
